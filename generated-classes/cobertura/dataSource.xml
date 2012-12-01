@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSources>
+	<DataSource>
+		<code>golf</code>
+		<jndi/>
+		<driverClass>org.h2.Driver</driverClass>
+		<jdbcUrl>jdbc:h2:./db/golf;LOCK_MODE=3;MVCC=TRUE</jdbcUrl>
+		<username>sa</username>
+		<password>sa</password>
+		<maxConnectionAgeInSeconds>60</maxConnectionAgeInSeconds>
+		<partitionCount>1</partitionCount>
+		<minConnectionsPerPartition>1</minConnectionsPerPartition>
+		<maxConnectionsPerPartition>5</maxConnectionsPerPartition>
+	</DataSource>
+	<DataSource>
+		<code>default</code>
+		<jndi/>
+		<driverClass>org.h2.Driver</driverClass>
+		<jdbcUrl>jdbc:h2:E:\java\golf\workspace\golf\db\default;LOCK_MODE=3;MVCC=TRUE</jdbcUrl>
+		<username>sa</username>
+		<password>sa</password>
+		<maxConnectionAgeInSeconds>60</maxConnectionAgeInSeconds>
+		<partitionCount>1</partitionCount>
+		<minConnectionsPerPartition>1</minConnectionsPerPartition>
+		<maxConnectionsPerPartition>5</maxConnectionsPerPartition>
+	</DataSource>
+</DataSources>
