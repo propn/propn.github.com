@@ -62,7 +62,7 @@
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
   </properties>
   <testcase time="0" classname="com.golf.dao.sql.PoSqlsTest" name="testGetUpdateSql"/>
-  <testcase time="0.032" classname="com.golf.dao.sql.PoSqlsTest" name="testGetSelectSql"/>
+  <testcase time="0.031" classname="com.golf.dao.sql.PoSqlsTest" name="testGetSelectSql"/>
   <testcase time="0" classname="com.golf.dao.sql.PoSqlsTest" name="testGetInsertSql"/>
   <testcase time="0" classname="com.golf.dao.sql.PoSqlsTest" name="testGetDeleteSql"/>
 </testsuite>
